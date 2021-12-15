@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: rgb(29, 29, 29);
     margin: 0;
@@ -71,6 +75,64 @@ body {
     font-family: 'Quicksand', sans-serif;
 }
 
+.about h1 {
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.about-container {
+    border: 1px;
+    width: 520px;
+    height: 150px;
+    border-radius: 5px;
+    text-align: left;
+    padding: 10px;
+    background-color: rgb(16, 16, 16);
+    font-size: 13px;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.skrillec-logo {
+    border-radius: 120px;
+}
+
+.doc h1 {
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.doc p {
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.doc-container {
+    border: 1px;
+    width: 520px;
+    height: 390px;
+    border-radius: 5px;
+    text-align: left;
+    padding: 10px;
+    background-color: rgb(16, 16, 16);
+    font-size: 13px;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width:700px) {
     .navbar li a {
         display: block;
@@ -78,7 +140,7 @@ body {
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
-        font-size: 13px;
+        font-size: 10px;
         font-family: 'Quicksand', sans-serif;
     }
 
@@ -93,5 +155,51 @@ body {
         font-size: 5px;
         color: white;
         font-family: 'Quicksand', sans-serif;
+        margin-bottom: 500px;
+    }
+
+    .about h1 {
+        font-family: 'Quicksand', sans-serif;
+        color: white;
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    .about-container {
+        border: 1px;
+        width: 220px;
+        height: 250px;
+        border-radius: 5px;
+        text-align: left;
+        padding: 10px;
+        background-color: rgb(16, 16, 16);
+        font-size: 13px;
+        color: white;
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    .doc-container {
+        border: 1px;
+        width: 240px;
+        height: 290px;
+        border-radius: 5px;
+        text-align: left;
+        padding: 10px;
+        background-color: rgb(16, 16, 16);
+        font-size: 13px;
+        color: white;
+        font-family: 'Quicksand', sans-serif;
+        margin-bottom: 50px;
+    }
+
+    .doc pre {
+        font-size: 10px;
+    }
+
+    .doc h1 {
+        font-family: 'Quicksand', sans-serif;
+        color: white;
+        text-align: center;
+        margin-top: 50px;
     }
 }
