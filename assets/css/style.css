@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap'); /*External font import*/
 
 html {
     scroll-behavior: smooth;
@@ -125,15 +125,27 @@ body {
     font-family: 'Quicksand', sans-serif;
 }
 
+.install h1 {
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
 
+.install-container {
+    border: 1px;
+    width: 520px;
+    height: 120px;
+    border-radius: 5px;
+    text-align: left;
+    padding: 10px;
+    background-color: rgb(16, 16, 16);
+    font-size: 13px;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
 
-
-
-
-
-
-
-@media only screen and (max-width:700px) {
+@media only screen and (max-width:700px) { /* - - - -  Mobile responvive CSS - - - -  */
     .navbar li a {
         display: block;
         color: white;
@@ -155,7 +167,7 @@ body {
         font-size: 5px;
         color: white;
         font-family: 'Quicksand', sans-serif;
-        margin-bottom: 500px;
+        margin-bottom: 100px;
     }
 
     .about h1 {
@@ -164,7 +176,7 @@ body {
         text-align: center;
         margin-top: 50px;
     }
-    
+
     .about-container {
         border: 1px;
         width: 220px;
@@ -180,8 +192,8 @@ body {
 
     .doc-container {
         border: 1px;
-        width: 240px;
-        height: 290px;
+        width: 260px;
+        height: 300px;
         border-radius: 5px;
         text-align: left;
         padding: 10px;
@@ -201,5 +213,18 @@ body {
         color: white;
         text-align: center;
         margin-top: 50px;
+    }
+
+    .install-container {
+        border: 1px;
+        width: 220px;
+        height: 127px;
+        border-radius: 5px;
+        text-align: left;
+        padding: 10px;
+        background-color: rgb(16, 16, 16);
+        font-size: 13px;
+        color: white;
+        font-family: 'Quicksand', sans-serif;
     }
 }
